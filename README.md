@@ -1,2 +1,0 @@
-# Softserve-project
-currency exchange

@@ -1,0 +1,249 @@
+*{
+  height: 100%;
+  width: auto;
+  margin:0;
+  font-family: 'Wallpoet';
+}
+/*Style for header */
+
+#logo {
+  text-decoration: none;
+  color: black;
+  font-size: 6em;
+  height: 700px;
+  padding-right: 250px;
+  background-image:url('../img/Frame33.png');
+}
+#main_conteiner_burger{
+  margin-top: -760px;
+  margin-left: 110px;
+}
+.burger{
+  width: 35px;
+  height: 4px;
+  background-color: black;
+  margin: 6px 0;
+}
+ p{
+padding-top: 100px;
+text-align: right;
+margin-left: -200px;
+}
+#black_block{
+  background-color: black;
+  font-size: 0.5em;
+  color:white;
+  height:200px;
+  width: 380px;
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: -450px;
+  margin-left: 400px;
+}
+
+.yourself{
+  color:black;
+  margin-top: -333px;
+  padding-right:610px;
+  font-size: 1.7em;
+  text-align: right;
+  text-shadow: 2px;
+}
+a{
+  text-decoration: none;
+  color:black;
+  word-spacing: 60px;
+  margin-top: -160px;
+  z-index: 2;
+}
+a #nav_yellow{
+  color:yellow;
+}
+/* Style for article About Us */
+.your{
+  color:yellow;
+  opacity:0.65;
+  font-size: 8.5em;
+  letter-spacing: 38px;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: -550px;
+
+
+}
+#your2{
+  color:yellow;
+  opacity:0.65;
+  font-size: 8.5em;
+  margin-left: 200px;
+  margin-top: -550px;
+
+}
+.code{
+  color:black;
+  font-size: 6em;
+  margin-top:-790px;
+  padding-right:1100px;
+
+}
+#text1{
+  font-weight: 500;
+  font-size: 1.2em;
+  text-align: left;
+  width: 650px;
+  margin-top: -550px;
+  margin-left: 650px;
+}
+#text2{
+  margin-top: -700px;
+  margin-left: 650px;
+  text-indent: 20px;
+  font-size: 0.8em;
+  width: 650px;
+  text-align: left;
+}
+#horizontal0{
+  width: 600px;
+  height: 1px;
+  background-color: black;
+  margin-top: -520px;
+  margin-left:650px;
+}
+/* Style for Services */
+#service{
+  margin-top: 100px;
+  background-size: 1550px;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  background-image: url('../img/Frame1.png');
+
+}
+#service_text{
+  width: 500px;
+  height:550px;
+  background-color: black;
+  font-size: 1em;
+  color:white;
+  margin-left: 750px;
+  margin-top:100px;
+
+
+}
+#text_p{
+  color:yellow;
+  opacity:0.7;
+  position: absolute;
+  top:-30px;
+  right:580px;
+}
+   #horizontal1{
+     width: 300px;
+     height: 1px;
+     background-color: white;
+     margin-top: -400px;
+     margin-left:850px;
+     color:white;
+ }
+   #horizontal2{
+     width: 300px;
+     height: 0.01em;
+     background-color: white;
+     left:850px;
+     top: 210px;
+     color:red;
+     position: absolute;
+
+   }
+    #main_text_service{
+    position: absolute;
+    color:white;
+    top:70px;
+    right:467px;
+    font-size: 1.4em;
+}
+    #service_main_text{
+      position: absolute;
+      width: 320px;
+      font-size: 0.8em;
+      left:840px;
+      z-index: 50;
+      color:white;
+      top:280px;
+      opacity: 0.8;
+
+    }
+  #about_text{
+    z-index:33;
+
+  }
+  #improve{
+    position: absolute;
+    right:1150px;
+    top:420px;
+    font-size: 1.8em;
+    letter-spacing: 7px;
+  }
+/* Style for yellow article*/
+
+.yellow_article{
+  display: flex;
+  flex-direction:row;
+  background-color: #ffff66;
+  height: 900px;
+  margin-top: 300px;
+  z-index:10;
+
+}
+.yellow_article > div{
+  padding: 150px;
+  margin: 0px;
+  width: 350px;
+  justify-content: space-between;
+  text-align: right;
+  z-index: 10;
+}
+.yellow_h{
+  margin-top: 70px;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 500;
+  width: 400px;
+  padding-left: 260px;
+  z-index: 20;
+}
+.yellow_text{
+  font-size: 0.7em;
+  margin-top: -930px;
+  width: 400px;
+  padding-left: 260px;
+  text-align: left;
+  text-indent: 15px;
+}
+.black_h{
+  font-size: 0.8em;
+  position: relative;
+  height:10px;
+  top:-650px;
+  margin-left:100px;
+  padding: 30px;
+  background-color: black;
+  color:white;
+  width: 350px;}
+
+  #clipping p{
+  box-shadow: 5px 12px 16px #888888;
+  width: 180px;
+  height: 400px;
+  box-sizing: border-box;
+  margin-top: -170px;
+  margin-left: 260px;
+  z-index: 60;
+  font-size: 1.2em;
+  position: absolute;
+  padding: 120px 50px 50px;
+  background-color: white;
+  text-align: center;
+}
