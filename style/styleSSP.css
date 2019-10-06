@@ -11,11 +11,12 @@
   color: black;
   font-size: 6em;
   height: 700px;
+  padding-top: 20px;
   padding-right: 250px;
-  background-image:url('../img/Frame33.png');
+  background-image:url('../img/Frame3.png');
 }
 #main_conteiner_burger{
-  margin-top: -760px;
+  margin-top: -800px;
   margin-left: 110px;
 }
 .burger{
@@ -50,6 +51,20 @@ margin-left: -200px;
   font-size: 1.7em;
   text-align: right;
   text-shadow: 2px;
+  z-index: 55;
+  position: relative;
+
+}
+#Y_yellow{
+  height: 270px;
+  width: 40px;
+  background-color: yellow;
+  opacity:0.6;
+  margin-top: -555px;
+  margin-left: 880px;
+  margin-bottom: 300px;
+  position: absolute;
+  z-index: 1;
 }
 a{
   text-decoration: none;
@@ -57,6 +72,7 @@ a{
   word-spacing: 60px;
   margin-top: -160px;
   z-index: 2;
+
 }
 a #nav_yellow{
   color:yellow;
@@ -65,20 +81,19 @@ a #nav_yellow{
 .your{
   color:yellow;
   opacity:0.65;
-  font-size: 8.5em;
+  font-size: 7.5em;
   letter-spacing: 38px;
   text-align: left;
   margin-left: 200px;
-  margin-top: -550px;
+  margin-top: 60px;
 
 
 }
 #your2{
-  color:yellow;
-  opacity:0.65;
-  font-size: 8.5em;
+  color:black;
+  font-size: 7.5em;
   margin-left: 200px;
-  margin-top: -550px;
+  margin-top: -580px;
 
 }
 .code{
@@ -118,8 +133,8 @@ a #nav_yellow{
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
-  background-image: url('../img/Frame1.png');
-
+  background-image: url('../img/11.jpg');
+/*background-image: url('../img/Frame1.png');*/
 }
 #service_text{
   width: 500px;
@@ -136,8 +151,9 @@ a #nav_yellow{
   color:yellow;
   opacity:0.7;
   position: absolute;
-  top:-30px;
-  right:580px;
+  top:150px;
+  right:460px;
+
 }
    #horizontal1{
      width: 300px;
@@ -148,11 +164,11 @@ a #nav_yellow{
      color:white;
  }
    #horizontal2{
-     width: 300px;
+     width: 220px;
      height: 0.01em;
      background-color: white;
-     left:850px;
-     top: 210px;
+     left:890px;
+     top: 185px;
      color:red;
      position: absolute;
 
@@ -160,8 +176,8 @@ a #nav_yellow{
     #main_text_service{
     position: absolute;
     color:white;
-    top:70px;
-    right:467px;
+    top:120px;
+    right:420px;
     font-size: 1.4em;
 }
     #service_main_text{
@@ -174,6 +190,7 @@ a #nav_yellow{
       top:280px;
       opacity: 0.8;
 
+
     }
   #about_text{
     z-index:33;
@@ -181,10 +198,11 @@ a #nav_yellow{
   }
   #improve{
     position: absolute;
-    right:1150px;
-    top:420px;
+    right:1000px;
+    top:460px;
     font-size: 1.8em;
     letter-spacing: 7px;
+    color:white;
   }
 /* Style for yellow article*/
 
@@ -246,4 +264,152 @@ a #nav_yellow{
   padding: 120px 50px 50px;
   background-color: white;
   text-align: center;
+}
+/* Style for wishes services */
+#subscribe_your_wishes {
+  background-image:url('../img/sub1.jpg');
+  width:auto;
+  height: 750px;
+  margin-top: -620px;
+  margin-bottom: 100px;
+}
+#sub{
+  color: yellow;
+  font-size: 2.3em;
+  float:right;
+  font-weight: 400;
+  margin-right: 200px;
+  margin-top:200px;
+}
+#sub_text{
+  color: black;
+  font-size: 1.2em;
+  float:right;
+  font-weight: 400;
+  margin-right: -440px;
+  margin-top:220px;
+  width: 450px;
+  text-align: left;
+}
+#Button_sub{
+  height: 40px;
+  width: 120px;
+  background-color: yellow;
+  border-radius: 50px 50px;
+  float:right;
+  border:0px solid yellow;
+  margin-top: 430px;
+  margin-right: -400px;
+  padding: 5px 10px 5px 10px;
+  font-size: 0.8em;
+}
+#vertical_line{
+  writing-mode: vertical-rl;
+  color: yellow;
+  letter-spacing: 5px;
+  margin-left: 100px;
+  margin-top: -570px;
+  font-size: 1.4em;
+  background-color: black;
+  padding-top:37px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+#vertical_line_2{
+  writing-mode: vertical-rl;
+  color: yellow;
+  letter-spacing: 5px;
+  margin-left: 150px;
+  margin-top: -750px;
+  font-size: 1.4em;
+  background-color: black;
+  padding-top:247px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+/* Style for input for charts */
+
+#create_charts{
+  color:black;
+  font-size: 7em;
+  float:right;
+  margin-top: -330px;
+  margin-right: 250px;
+}
+#create_yellow_background{
+  background-color: yellow;
+}
+#charts_yellow_background{
+  background-color: yellow;
+  padding-bottom: 60px;
+}
+#currency{
+  border: none;
+  box-shadow:2px 2px #888888;
+  padding:7px;
+  border-radius:50px 50px;
+  height: 40px;
+  width: 150px;
+  position: relative;
+  top: -420px;
+  margin-left: 470px;
+  background-color:white;
+}
+#currency:active{
+  border-radius: 50px 50px;
+  decoration:none;
+}
+#cdate{
+  border-radius:50px 50px;
+  background-color:black;
+  color:white;
+  border:0px solid black;
+  box-shadow:2px 2px #888888;
+  padding:7px;
+  height:30px;
+  position: relative;
+  margin-left: 50px;
+  top:-420px;
+}
+#data{
+  border: none 1px black;
+  width:100px;
+  height:40px;
+  border-radius:50px 50px;
+  box-shadow: 2px 2px #888888;
+  position: relative;
+  margin-left: 580px;
+  top:-400px;
+}
+#yellow_line{
+  height: 25px;
+  background-color: #ffff33;
+  margin-top: -350px;
+}
+/* Charts div */
+#main_charts_div{
+  height: 700px;
+  background-image:url('../img/background_chart1.jpg');
+}
+
+
+
+
+
+#create_schedule{
+  color: black;
+  background-color: #ffff33;
+  height:40px;
+  border-radius: 50px 50px;
+  border:none;
+  padding:10px;
+  margin-left: 150px;
+  position: relative;
+  top: 300px;
+}
+#create_schedule:active{
+  border-radius: 50px 50px;
+  decoration:none;
 }
