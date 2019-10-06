@@ -357,7 +357,7 @@ a #nav_yellow{
   margin-left: 470px;
   background-color:white;
 }
-#currency:active{
+#currency:{
   border-radius: 50px 50px;
   decoration:none;
 }
@@ -393,11 +393,6 @@ a #nav_yellow{
   height: 700px;
   background-image:url('../img/background_chart1.jpg');
 }
-
-
-
-
-
 #create_schedule{
   color: black;
   background-color: #ffff33;
@@ -407,9 +402,18 @@ a #nav_yellow{
   padding:10px;
   margin-left: 150px;
   position: relative;
-  top: 300px;
+  top: -200px;
 }
 #create_schedule:active{
   border-radius: 50px 50px;
   decoration:none;
+}
+#container{
+  width: 1000px;
+  height: 450px;
+  margin-top:-160px;
+  margin-right:100px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+
 }
